@@ -39,21 +39,21 @@ class Example extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('block', 'https://play.rosebud.ai/assets/block.png?QOLp');
-        this.load.image('pacman', 'https://play.rosebud.ai/assets/pacman-right-1.png?HOrv');
-        this.load.image('blinky', 'https://play.rosebud.ai/assets/blinky.png?x44C');
-        this.load.image('clyde', 'https://play.rosebud.ai/assets/clyde.png?tZyA');
-        this.load.image('inky', 'https://play.rosebud.ai/assets/inky.png?8jTC');
-        this.load.image('pinky', 'https://play.rosebud.ai/assets/pinky.png?ldBv');
-        this.load.image('blue_ghost', 'https://play.rosebud.ai/assets/blue_ghost.png?9waS');
-        this.load.image('strawberry', 'https://play.rosebud.ai/assets/strawberry.png?lM9V');
-        this.load.image('apple', 'https://play.rosebud.ai/assets/apple.png?ffsK');
-        this.load.audio('powerUpSound', 'https://play.rosebud.ai/assets/ghosteating sound.wav?h6lI');
-        this.load.audio('eatGhostSound', 'https://play.rosebud.ai/assets/ghosteating sound.wav?h6lI');
-        this.load.image('dot', 'https://play.rosebud.ai/assets/hot pink circle.png?qdRE');
-        this.load.audio('dotEatSound', 'https://play.rosebud.ai/assets/pacman_chomp.wav?5S8r');
-        this.load.audio('deathSound', 'https://play.rosebud.ai/assets/pacman_death.wav?T6t9');
-        this.load.image('watermelon', 'https://play.rosebud.ai/assets/slice-watermelon-pixel-art-white-background_69210-42-removebg-preview.png?7ywT');
+        this.load.image('block', 'assets/block.webp');
+        this.load.image('pacman', 'assets/pacman.webp');
+        this.load.image('blinky', 'assets/blinky.webp');
+        this.load.image('clyde', 'assets/clyde.webp');
+        this.load.image('inky', 'assets/inky.webp');
+        this.load.image('pinky', 'assets/pinky.webp');
+        this.load.image('blue_ghost', 'assets/blue_ghost.webp');
+        this.load.image('strawberry', 'assets/strawberry');
+        this.load.image('apple', 'assets/apple.webp');
+        this.load.audio('powerUpSound', 'assets/ghosteating sound.wav?h6lI');
+        this.load.audio('eatGhostSound', 'assets/ghosteating sound.wav?h6lI');
+        this.load.image('dot', 'assets/hot pink circle.png?qdRE');
+        this.load.audio('dotEatSound', 'assets/pacman_chomp.wav?5S8r');
+        this.load.audio('deathSound', 'assets/pacman_death.wav?T6t9');
+        this.load.image('watermelon', 'assets/slice-watermelon-pixel-art-white-background_69210-42-removebg-preview.webp');
         // Reuse existing fruit assets for stations
         this.stationAssets = {
             'Social Media': 'apple',
