@@ -40,19 +40,19 @@ class Example extends Phaser.Scene {
 
     preload() {
         this.load.image('block', 'assets/block.webp');
-        this.load.image('pacman', 'assets/pacman.webp');
-        this.load.image('blinky', 'assets/blinky.webp');
+        this.load.image('pacman', 'assets/pacman-right-1.webp');
+        this.load.image('blinky', 'assets/clyde.webp');
         this.load.image('clyde', 'assets/clyde.webp');
         this.load.image('inky', 'assets/inky.webp');
         this.load.image('pinky', 'assets/pinky.webp');
         this.load.image('blue_ghost', 'assets/blue_ghost.webp');
-        this.load.image('strawberry', 'assets/strawberry');
+        this.load.image('strawberry', 'assets/strawberry.webp');
         this.load.image('apple', 'assets/apple.webp');
-        this.load.audio('powerUpSound', 'assets/ghosteating sound.wav?h6lI');
-        this.load.audio('eatGhostSound', 'assets/ghosteating sound.wav?h6lI');
-        this.load.image('dot', 'assets/hot pink circle.png?qdRE');
-        this.load.audio('dotEatSound', 'assets/pacman_chomp.wav?5S8r');
-        this.load.audio('deathSound', 'assets/pacman_death.wav?T6t9');
+        this.load.audio('powerUpSound', 'assets/ghosteating sound.wav');
+        this.load.audio('eatGhostSound', 'assets/ghosteating sound.wav');
+        this.load.image('dot', 'assets/pink_circle.webp');
+        this.load.audio('dotEatSound', 'assets/pacman_chomp.wav');
+        this.load.audio('deathSound', 'assets/pacman_death.wav');
         this.load.image('watermelon', 'assets/slice-watermelon-pixel-art-white-background_69210-42-removebg-preview.webp');
         // Reuse existing fruit assets for stations
         this.stationAssets = {
